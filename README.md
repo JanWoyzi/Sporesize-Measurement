@@ -1,14 +1,14 @@
 # Supplement 2 of:
 # More than just diameter: a workflow for automated image analysis of spore shapes in myxomycetes
 
-*Jan Woyzichovski1, Oleg N. Shchepin1,2, Nikki H.A Dagamac1,3 and Martin Schnittler1
+*Jan Woyzichovski<sup>1</sup>, Oleg N. Shchepin<sup>1,2</sup>, Nikki H.A Dagamac<sup>1,3</sup> and Martin Schnittler<sup>1</sup>
 
-*1 Institute of Botany and Landscape Ecology, Greifswald University, Soldmannstr. 15, D-17487 Greifswald, Germany*
+*<sup>1</sup> Institute of Botany and Landscape Ecology, Greifswald University, Soldmannstr. 15, D-17487 Greifswald, Germany*
 
-*2 Komarov Botanical Institute of the Russian Academy of Sciences, Laboratory of Systematics and Geography of Fungi, 
+*<sup>2</sup> Komarov Botanical Institute of the Russian Academy of Sciences, Laboratory of Systematics and Geography of Fungi, 
 Prof. Popov Street 2, 197376 St. Petersburg, Russia*
 
-*3 Department of Biological Sciences and Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines*
+*<sup>3</sup> Department of Biological Sciences and Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines*
 
 *Corresponding author: Jan Woyzichovski, e-mail: jan.woyzichovski@uni-greifswald.de
 
