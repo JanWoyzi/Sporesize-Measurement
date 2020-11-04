@@ -20,11 +20,14 @@ The article can be found on [Link to Journal.](http://google.com) (*links to goo
 Measuring spore size is a standard method for the description of fungal taxa, but results in nothing more than a size range. We present a method to analyze the shape of large quantities of spherical bodies, like spores or pollen, without using expensive equipment. A spore suspension mounted at a slide is treated with a high-vibration device to achieve a uniform distribution of spores. Subsequent automated image processing allows to measure between 10 000 and 50 000 spores per slide. One result is a size distribution of spores, which can yield a lot of additional information, as shown on the example of the slime mold *Physarum albescens*. The exact distribution curves for spore size reveal irregularities in spore formation, as a result of the influence of environmental conditions on spore maturation. A comparison of the spore size distribution curves within and between colonies of sporocarps shows a high degree of environmental variation together with apparent genetic variation. In addition, some of the specimens have a proportion of apparently unreduced spores, which have roughly twice the volume of normal spores. Here we give a detailed guideline for slide preparation and image processing scripts, which can be universally used for spherical bodies like spores or pollen grains, and describe conceivable applications.
 
 ## Description
-This is the supplement 2 of the above mentioned work. Within the repository all scripts created and used for this work are listed. The general workflow for this methode can be seen on Figure 1. ![Image of Workflow](https://github.com/JanWoyzi/Sporesize-Measurement/blob/main/ImgForReadme/workflow-02.png) 
-
+This is supplement 2 of the work, as mentioned above. 
+These scripts provide the user the ability to analyze the shape of large quantities of spherical bodies, like spores or pollen, with the usage of ImageJ software. Prepared microscopy slides with the sample are scanned in, and the resulting images can be fed to ImageJ with these scripts. 
+Within the repository, all scripts created and used for this work are listed. The general workflow for this method and order of scripts can be seen in Figure 1.
+In general, these scripts can be fused together if the results are satisfactory. It is designed so that every significant image processing step is separate and can be checked for correctness. 
+![Image of Workflow](https://github.com/JanWoyzi/Sporesize-Measurement/blob/main/ImgForReadme/workflow-02.png) 
 *Figure 1: Workflow overview from sample preparation to data acquisition. See Table 1 for the respective scripts.*
 
-*Table 1 Scripts used for image analysis. Underlined scripts are crucial for the results of the analysis and are described in detail in supplement 2. The column D/S indicates if the respective calculations are desktop (D) or server (S) based.*
+*Table 1 Scripts used for image analysis. Underlined scripts are crucial for the results of the analysis. The column D/S indicates if the respective calculations are desktop (D) or server (S) based.*
 
 Script name	 | S/D |	Script function
 -------------|-|-----------------
@@ -38,6 +41,7 @@ ParticleAnalyzer_v5.py |	S/D |	Particle Analyzer, analyzes spore shapes, describ
 Elli_v6.py |	D	| Ellipse Split plugin (alternative algorithm to Paana.py), analyses the spore shapes according to a pre-defined ellipsoid shape (less sensitive to a particular shape, since measurements are based on approximated ellipses), more robust in case of segmentation errors. Both algorithms are alternatives; in each case, the result is an array of object features which can be further evaluated (or filtered to exclude non-target objects)
 RGBSporesV2.py |	S/D	| Additional script, allows extracting area-related object features (e.g., RGB values) by comparison with the raw image
 
+*Within the scripts important command lines are further explained and with additional options presented.*
 
 
 ## Code Review
