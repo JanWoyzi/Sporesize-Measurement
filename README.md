@@ -24,4 +24,5 @@ Within the repository all scripts created and used for this work are listed.
 This repository has not undergone code review only by the corresponding author. This notice will be removed once the repository has undergone proper review.
 
 ## Acknowledgements
+OS received support from the Russian Foundation for Basic Research (project 18-04-01232 А) and the state task of BIN RAS ‘Biodiversity, ecology, structural and functional features of fungi and fungus-like protists’ (АААА-А19-119020890079-6).
 Funding for this study was provided in the frame of a PhD position for JW within the Research Training Group RESPONSE (RTG 2010), supported by the Deutsche Forschungsgemeinschaft (DFG).
