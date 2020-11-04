@@ -5,7 +5,7 @@
 
 *<sup>1</sup> Institute of Botany and Landscape Ecology, Greifswald University, Soldmannstr. 15, D-17487 Greifswald, Germany*
 
-*<sup>2</sup> Komarov Botanical Institute of the Russian Academy of Sciences, Laboratory of Systematics and Geography of Fungi, 
+*<sup>2</sup> Komarov Botanical Institute of the Russian Academy of Sciences, Laboratory of Systematics and Geography of Fungi, <br/>
 Prof. Popov Street 2, 197376 St. Petersburg, Russia*
 
 *<sup>3</sup> Department of Biological Sciences and Research Center for the Natural and Applied Sciences, University of Santo Tomas, Manila, Philippines*
@@ -24,7 +24,7 @@ This is supplement 2 of the work, as mentioned above.
 These scripts provide the user the ability to analyze the shape of large quantities of spherical bodies, like spores or pollen, with the usage of ImageJ software. Prepared microscopy slides with the sample are scanned in, and the resulting images can be fed to ImageJ with these scripts. 
 Within the repository, all scripts created and used for this work are listed. The general workflow for this method and order of scripts can be seen in Figure 1.
 In general, these scripts can be fused together if the results are satisfactory. It is designed so that every significant image processing step is separate and can be checked for correctness. 
-![Image of Workflow](https://github.com/JanWoyzi/Sporesize-Measurement/blob/main/ImgForReadme/workflow-02.png) 
+![Image of Workflow](https://github.com/JanWoyzi/Sporesize-Measurement/blob/main/ImgForReadme/workflow-02.png) <br/>
 *Figure 1: Workflow overview from sample preparation to data acquisition. See Table 1 for the respective scripts.*
 
 *Table 1 Scripts used for image analysis. Underlined scripts are crucial for the results of the analysis. The column D/S indicates if the respective calculations are desktop (D) or server (S) based.*
