@@ -43,6 +43,9 @@ RGBSporesV2.py |	S/D	| Additional script, allows extracting area-related object 
 
 *Within the scripts important command lines are further explained and with additional options presented.*
 
+## Weka.py script - where is it?
+The entire script can be found on the the webpage: [https://imagej.net/Scripting_the_Trainable_Segmentation](https://imagej.net/Scripting_the_Trainable_Segmentation) 
+, last visited (08/10/2020).
 
 ## Code Review
 This repository has not undergone code review only by the corresponding author. This notice will be removed once the repository has undergone proper review.
